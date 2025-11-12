@@ -233,7 +233,98 @@
     
     h2(data-aos="fade-left") Criterios para la enseñanza de estrategias metacognitivas
     p.mb-5 Salazar Béjar y Cáceres Mesa (2022) proponen dos criterios fundamentales para implementar estrategias metacognitivas: el grado de conciencia sobre las estrategias y el nivel de ayuda docente. A continuación, se presenta una clasificación según el grado de conciencia sobre las estrategias: 
+
+    TabsC.color-acento-contenido.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Entrenamiento ciego" :icon="require('@/assets/bullets/2.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-7.mb-4.mb-md-0
+            h4 Entrenamiento ciego
+            p El estudiante realiza tareas sin saber por qué o para qué, dificultando la transferencia del conocimiento.
     
+          .col-md-8.col-lg-5.col-xl-5.mb-3.mb-lg-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/19.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Entrenamiento " :icon="require('@/assets/bullets/2.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-7.mb-4.mb-md-0
+            h4 Entrenamiento 
+            p Se explican las razones y la utilidad de las estrategias, promoviendo comprensión y uso flexible.
+    
+          .col-md-8.col-lg-5.col-xl-5.mb-3.mb-lg-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/20.png', alt='')
+    
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Entrenamiento metacognitivo" :icon="require('@/assets/bullets/2.svg')")
+        .row.justify-content-center.align-items-center
+          .col-lg-7.col-xl-7.mb-4.mb-md-0
+            h4 Entrenamiento metacognitivo
+            p El estudiante comprueba por sí mismo la efectividad de las estrategias, desarrollando una conciencia profunda y autonomía en el aprendizaje.
+    
+          .col-md-8.col-lg-5.col-xl-5.mb-3.mb-lg-0
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/21.png', alt='', style="width: 100%;")
+    
+    
+    .bg-full-width.bg-color-10
+      .px-4.px-md-5.pb-md-3
+        p.mb-5 A continuación, se describe el segundo criterio, relacionado con el tipo de apoyo ofrecido por el docente:
+        .row.justify-content-center.mb-5
+          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema1/23.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 1. Instrucción explícita
+                p.text-center El docente explica de manera clara las estrategias, diferenciando el saber qué, cómo y cuándo/usarlas.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema1/24.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 2. Modelado cognitivo
+                p.text-center El profesor verbaliza sus propios procesos de pensamiento, mostrando cómo planifica, supervisa y evalúa.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema1/25.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 3. Práctica guiada
+                p.text-center El docente acompaña al alumno durante la aplicación de las estrategias, proporcionando apoyo.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema1/26.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 4. Práctica cooperativa
+                p.text-center Se trabaja en grupo, compartiendo el control de la actividad, lo que favorece el aprendizaje colaborativo y el diálogo metacognitivo.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema1/27.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 5. Práctica individual
+                p.text-center El estudiante aplica de forma autónoma las estrategias con ayuda de guías de autointerrogación, lo que fortalece la autorregulación.
+    
+          .col-lg-4.order-lg-1
+            figure
+              img(src='@/assets/curso/tema1/22.png', alt='')
+    
+    h2(data-aos="fade-left") Estrategias metacognitivas aplicadas en el aula
+    p.mb-5 Finalmente, Zenteno (2024) ofrece ejemplos concretos de estrategias aplicables en contextos educativos. Estas herramientas fomentan un entorno de aprendizaje consciente, reflexivo y autónomo, como se detalla en la siguiente tabla:
+
+    .row.align-items-start.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/28.png", alt="").mb-4.mb-lg-0
+      .col-lg-8.order-lg-1
+    
+        AcordionA(tipo="b")
+          .div(titulo="Diarios de aprendizaje reflexivo")
+            p Registro sistemático de experiencias, emociones, dificultades y estrategias utilizadas. Fomenta la autorregulación y la conciencia emocional y cognitiva.
+    
+          .div(titulo="Mapas conceptuales interactivos")
+            p Representaciones gráficas que organizan la información jerárquicamente. Facilitan conexiones entre ideas y promueven el diálogo metacognitivo al ser compartidos.
+    
+          .div(titulo="Discusiones guiadas")
+            p Conversaciones estructuradas con preguntas abiertas que estimulan el pensamiento crítico, la argumentación y la reformulación de ideas.
+    
+    .row.mb-5.align-items-center
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/29.png", data-aos="zoom-in")
+      .col-lg-8
+        .bg-color-1.p-4(data-aos="fade-left")
+          p Las estrategias metacognitivas son una guía esencial para lograr un aprendizaje profundo, flexible y autorregulado. Favorecen la mejora de la comprensión, la memoria, la toma de decisiones y la resolución de problemas, además de consolidar la autonomía del estudiante.
+          p.mb-0 En palabras de Zenteno (2024), implementar estas estrategias transforma el aula en un espacio donde los estudiantes se convierten en protagonistas de su propio aprendizaje. Ya sea para aprobar un examen, adquirir una nueva habilidad o avanzar profesionalmente, las técnicas metacognitivas son aliadas indispensables en el proceso educativo.
+
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -244,15 +335,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/16807?page=3 " target="_blank" rel="noopener noreferrer") Sandia Rondel, L. (2004). Metacognición en niños: una posibilidad a partir de la teoría Vygotskiana. Acción Pedagógica, 13 (2), 128-135: ( ed.). D - Universidad de los Andes Venezuela. 
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.jorgeinnova.com/2024/10/guia-completa-de-estrategias-metacognitivas-de-aprendizaje.html " target="_blank" rel="noopener noreferrer") Zenteno, J. (2024, 23 noviembre). 
+
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=zFLbmOJqzhU " target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo. (2025, 15 de abril). Cómo desarrollar la metacognición, el aprender a aprender, la autorregulación y el autoconocimiento [Vídeo]. YouTube. 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
