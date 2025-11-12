@@ -1,1 +1,2 @@
-module.exports = 'CIRED'
+module.exports =
+  'Estrategias para la Mejora del Aprendizaje y el Desarrollo Cognitivo'
