@@ -59,8 +59,8 @@
           .col-lg-3(data-aos="zoom-in")
             img.img-fluid(src='@/assets/curso/tema1/4.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
     
-    #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Tipologías de la metacognición
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Tipologías de la metacognición
 
     p.mb-5 La metacognición se manifiesta en diferentes formas, cada una vinculada a funciones cognitivas específicas que permiten al individuo observar, regular y adaptar sus procesos mentales para mejorar el aprendizaje. Según Vivas (2020), estas modalidades fortalecen la autonomía del estudiante y su capacidad para aprender de manera consciente y estratégica. Los tipos de metacognición son:
 
@@ -127,7 +127,7 @@
         figure
           img(src="@/assets/curso/tema1/10.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        h2(data-aos="fade-left") EAplicaciones prácticas y reflexivas
+        h2(data-aos="fade-left") Aplicaciones prácticas y reflexivas
         p(data-aos="fade-left") La metacognición, entendida como la capacidad de pensar sobre el propio pensamiento, tiene aplicaciones fundamentales en campos como la educación, la psicología y la neuroeducación. No solo implica saber qué se piensa, sino también cómo, por qué y para qué se piensa de determinada manera. Este nivel de conciencia permite optimizar el rendimiento cognitivo a través de la observación, regulación y ajuste de estrategias mentales.
     
         .bg-color-1.p-4.mb-3(data-aos="fade-left")
