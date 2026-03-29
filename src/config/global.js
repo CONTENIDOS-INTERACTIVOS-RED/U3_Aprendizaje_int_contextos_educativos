@@ -107,12 +107,6 @@ export default {
     },
     {
       referencia:
-        'Vargas-Tipula, W. G., Zavala-Cáceres, E. M., & Zuñiga-Aparicio, P. (2024). <em>Estrategias para el aprendizaje desde la neurociencia: Revisión sistemática</em>. Koinonía, 9(supl.1).',
-      link:
-        'https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S2542-30882024000300097',
-    },
-    {
-      referencia:
         'Heldrich Santizo. (2025). <em>5 estrategias de neurociencia para mejorar el aprendizaje</em>. CESUMA.',
       link:
         'https://www.cesuma.mx/blog/5-estrategias-neurociencia-mejorar-aprendizaje.html',
